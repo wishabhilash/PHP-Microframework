@@ -1,0 +1,13 @@
+@author: Abhilash Nanda
+@name: myMicroFramework
+@version: 0.1
+
+##################	FILE HIERARCHY	#################
+lib
+ |- db
+ |	|- db.php		(ORM)
+ |	|- types.php	(database fields)
+ |
+ |- form
+	|- form.php		(base form class)
+	|- types.php	(form types; handles validation and field properties)
